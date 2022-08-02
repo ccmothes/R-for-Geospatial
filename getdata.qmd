@@ -85,7 +85,7 @@ terra::writeRaster(land_co1km, filename = "data/NLCD_CO.tif", overwrite = TRUE)
 We will be working with some species occurrences in the form of point data (latitude/longitude). `rgbif` is a package that allows you to download species occurrences from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/), a database of global species occurrences with over 2.2 billion records.
 
 |                           |                              |                                  |
-|:------------------:|:-----------------------:|:--------------------------:|
+|:-------------------------:|:----------------------------:|:--------------------------------:|
 | ![](elk.jpg){width="182"} | ![](marmot.jpg){width="171"} | ![](salamander.jpg){width="208"} |
 |            Elk            |    Yellow-Bellied Marmot     |     Western Tiger Salamander     |
 
@@ -194,7 +194,7 @@ write_csv(census, "data/census_data.csv")
 R's collection of data retrieval libraries is extensive. We only use a few of them in this workshop, but I wanted to mention a few other packages that may be of interest:
 
 |                                                                                                       |                                                                                                                                         |
-|-------------------------------|-----------------------------------------|
+|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | [`rnaturalearth`](https://docs.ropensci.org/rnaturalearth/articles/rnaturalearth.html)                | Natural Earth spatial data                                                                                                              |
 | [`rnoaa`](https://docs.ropensci.org/rnoaa/articles/rnoaa.html)                                        | NOAA weather data                                                                                                                       |
 | [`dataRetrieval`](https://cran.r-project.org/web/packages/dataRetrieval/vignettes/dataRetrieval.html) | USGS water data                                                                                                                         |
