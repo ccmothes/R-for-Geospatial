@@ -1,0 +1,53 @@
+project:
+  type: website
+
+website:
+  sidebar:
+    title: "R for Geospatial"
+    collapse-level: 1
+    tools: 
+      - icon: twitter
+        href: https://twitter.com/Centroid_CSU
+      - icon: github
+        href: https://github.com/ccmothes/R-for-Geospatial
+    style: "docked"
+    search: true
+    alignment: "center"
+    contents:
+      - text: "Welcome"
+        href: index.qmd
+      - text: "Getting Started"
+        href: setup.qmd
+      - text: "Lesson 1"
+        href: day1.qmd
+      - text: "Lesson 2"
+        href: day2.qmd
+      - text: "Lesson 3"
+        href: day3.qmd
+      - section: "Extras"
+        contents:
+            - text: "Pulling Data"
+              href: getdata.qmd
+            - text: "R Basics"
+              href: basics.qmd
+
+   
+  page-footer: 
+    left:
+      - text: "Copyright 2022, Caitlin Mothes"
+    right: |
+      [![](logo.png){fig-alt="Geospatial Centroid" width=150px}](https://gis.colostate.edu/)
+     
+  
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
+execute:
+  freeze: auto
+
